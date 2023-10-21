@@ -31,8 +31,8 @@ ws = wb['债券基金投资资产']
 ```python
 for i in range(1,np.size(arr)+1):
     distance=arr[i-1]
-```
     # 从第2行开始，插入第5列
     ws.cell(row = i+1, column = 5).value =distance
 # 保存操作
 wb.save(r'/Users/zhouxingyu/Library/Mobile Documents/com~apple~CloudDocs/Xingyu Zhou/[5] Financial/投资数据库/Excel文档/金融资产配置文档.xlsx')
+```
