@@ -114,4 +114,4 @@ for i in range(1,np.size(arr)+1):
 wb.save(r'/Users/zhouxingyu/Library/Mobile Documents/com~apple~CloudDocs/Xingyu Zhou/[5] Financial/投资数据库/Excel文档/金融资产配置文档.xlsx')
 
 print('\n\n')
-print("撒娇可爱聪明卖萌小齐齐计算完毕，快来夸我吧!")
+print("Done")
