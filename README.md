@@ -4,7 +4,7 @@
 
 ### 导入需要的模块
 ```python
-//import requests
+import requests
 from bs4 import BeautifulSoup
 import re
 import numpy as np
@@ -14,7 +14,7 @@ import openpyxl
 
 ### 读取excel中基金的代号 
 
-usecols=[3], 选取工作表第4列
+usecols=[3], 选取工作表第4列 //
 sheet_name="债券基金投资资产" 选取工作表
 
 ```python
