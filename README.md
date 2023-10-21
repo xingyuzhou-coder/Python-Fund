@@ -12,7 +12,7 @@ import pandas as pd
 import openpyxl
 ```
 
-### 定位EXCEL文件并且读取EXCEL文件中基金的代号 
+### 打开EXCEL文件并且读取文件中基金的代号 
 
 usecols=[3], 选取工作表第4列
 
