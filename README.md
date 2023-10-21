@@ -14,15 +14,15 @@ import openpyxl
 
 ### 打开EXCEL文件并且读取文件中基金的代码
 
-EXCEL文件地址
+#### EXCEL文件地址
 
 /Users/zhouxingyu/Library/.../投资数据库/Excel文档/金融资产配置文档.xlsx 
 
-选取工作表“债券基金投资资产”
+#### 选取工作表“债券基金投资资产”
 
 sheet_name="债券基金投资资产"，
 
- 选取工作表第4列
+#### 选取工作表第4列
 
 usecols=[3],
 
