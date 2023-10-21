@@ -1,4 +1,4 @@
-# 这是一个可以读取EXCEL文件中的基金代码并且更新最新净值的Python小工具
+## 这是一个可以读取EXCEL文件中的基金代码并且更新最新净值的Python小工具
 
 ### 导入需要的模块
 ```python
@@ -33,7 +33,7 @@ def read_excel_code():
     return bondfund_code_list
 ```
 
-# 打开目标表格，更新净值
+### 打开目标表格，更新净值
 
 ```python
 wb=openpyxl.load_workbook(r'/Users/zhouxingyu/Library/Mobile Documents/com~apple~CloudDocs/Xingyu Zhou/[5] Financial/投资数据库/Excel文档/金融资产配置文档.xlsx')
