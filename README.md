@@ -2,15 +2,17 @@
 
 ## 这是一个可以自动读取EXCEl文件中的基金代码，实时更新最新净值的小工具
 
-# 导入需要的模块
+### 导入需要的模块
+```python
 import requests
 from bs4 import BeautifulSoup
 import re
 import numpy as np
 import pandas as pd
 import openpyxl
+```
 
-# 读取excel中基金的代号
+### 读取excel中基金的代号
 def read_excel_code():
     bondfund_code=pd.read_excel(r'/Users/zhouxingyu/Library/Mobile Documents/com~apple~CloudDocs/Xingyu Zhou/[5] Financial/投资数据库/Excel文档/金融资产配置文档.xlsx',usecols=[3],dtype=str,sheet_name="债券基金投资资产")
     bondfund_code_list=bondfund_code.values.tolist()
