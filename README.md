@@ -12,7 +12,11 @@ import pandas as pd
 import openpyxl
 ```
 
-### 读取excel中基金的代号
+### 读取excel中基金的代号 
+
+usecols=[3], 选取工作表第4列
+sheet_name="债券基金投资资产" 选取工作表
+
 ```python
 def read_excel_code():
     bondfund_code=pd.read_excel(r'/Users/zhouxingyu/Library/Mobile Documents/com~apple~CloudDocs/Xingyu Zhou/[5] Financial/投资数据库/Excel文档/金融资产配置文档.xlsx',usecols=[3],dtype=str,sheet_name="债券基金投资资产")
