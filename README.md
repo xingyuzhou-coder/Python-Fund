@@ -4,7 +4,7 @@
 
 ### 导入需要的模块
 ```python
-import requests
+//import requests
 from bs4 import BeautifulSoup
 import re
 import numpy as np
