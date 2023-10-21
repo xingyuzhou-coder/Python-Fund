@@ -1,6 +1,6 @@
 # Python-Fund
 
-## 这是一个可以自动读取EXCEl文件中的基金代码，实时更新最新净值的小工具
+## 这是一个可以自动读取EXCEL文件中的基金代码，实时更新最新净值的小工具
 
 ### 导入需要的模块
 ```python
@@ -12,11 +12,11 @@ import pandas as pd
 import openpyxl
 ```
 
-### 读取excel中基金的代号 
+### 定位EXCEL文件并且读取EXCEL文件中基金的代号 
 
 usecols=[3], 选取工作表第4列
 
-sheet_name="债券基金投资资产" 选取工作表“债券基金投资资产”
+sheet_name="债券基金投资资产"，选取工作表“债券基金投资资产”
 
 ```python
 def read_excel_code():
